@@ -539,6 +539,7 @@ button:focus {
     width: 120%;
     transform: translateY(-50%);
     left: -11%; }
+    
     @media (max-width: 991px) {
       .popular_courses .owl-nav {
         display: none !important; } }

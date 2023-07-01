@@ -1,0 +1,29 @@
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="banner_content text-center">
+              <h2>Expert Teachers</h2>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="trainer_area section_gap_top">
+    <div class="container">
+    
+      <div class="row justify-content-center d-flex align-items-center">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 single-trainer" *ngFor="let teacher of teachersTab">
+         <app-single-teacher [teacherInput]="teacher"></app-single-teacher>
+        </div>
+
+ 
+      </div>
+    </div>
+  </section>

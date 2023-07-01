@@ -1,0 +1,28 @@
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="banner_content text-center">
+                        <h2>Our Popular Courses</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="popular_courses section_gap_top">
+    <div class="container">
+
+
+        <!-- single course -->
+        <div class="row">
+            <div class="col-lg-4" *ngFor="let course of coursesTab">
+                <app-single-course [courseInput]="course"></app-single-course>
+            </div>
+
+        </div>
+
+    </div>
